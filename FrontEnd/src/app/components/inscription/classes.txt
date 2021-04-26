@@ -1,0 +1,21 @@
+limiter
+container-login100
+wrap-login100                       p-t-190 p-b-30
+login100-form validate-form
+login100-form-avatar
+login100-form-title                 p-t-20 p-b-45
+wrap-input100 validate-input        m-b-10
+input100
+focus-input100
+symbol-input100
+fa fa-user
+wrap-input100 validate-input        m-b-10
+input100
+focus-input100
+symbol-input100
+fa fa-lock
+container-login100-form-btn         p-t-10
+login100-form-btn
+text-center w-full                  p-t-25 p-b-230
+text-center w-full
+fa fa-long-arrow-right

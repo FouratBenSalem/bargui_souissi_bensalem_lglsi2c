@@ -1,0 +1,58 @@
+
+.p-t-10 {padding-top: 10px;}
+.p-t-20 {padding-top: 20px;}
+.p-t-25 {padding-top: 25px;}
+.p-t-190 {padding-top: 190px;}
+.p-t-100 {padding-top: 100px;}
+
+.p-b-10 {padding-bottom: 10px;}
+.p-b-30 {padding-bottom: 30px;}
+.p-b-45 {padding-bottom: 45px;}
+.p-b-100 {padding-bottom: 100px;}
+
+.p-l-50 {padding-left: 50px;}
+.p-l-75 {padding-left: 75px;}
+
+
+.m-b-10 {margin-bottom: 10px;}
+.m-b-20 {margin-bottom: 20px;}
+.m-b-100 {margin-bottom: 100px;}
+
+.m-l-20 {margin-left: 50%;}
+
+.text-center {text-align: center;}
+
+.w-full {width: 100%;}
+
+
+
+.profile-head {
+  transform: translateY(5rem)
+}
+
+.cover {
+  background-image: url(../images/istic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+
+.icon1 {
+  position: relative;
+  
+}
+
+body {
+  /*
+  background: #654ea3;
+  background: linear-gradient(to right, #e96443, #904e95);
+  min-height: 100vh;
+  */
+
+  background-image: radial-gradient(circle at 10% 26%, rgba(90, 90, 90,0.06) 0%, rgba(90, 90, 90,0.06) 25%,rgba(137, 137, 137,0.06) 25%, rgba(137, 137, 137,0.06) 50%,rgba(185, 185, 185,0.06) 50%, rgba(185, 185, 185,0.06) 75%,rgba(232, 232, 232,0.06) 75%, rgba(232, 232, 232,0.06) 100%),radial-gradient(circle at 46% 66%, rgba(171, 171, 171,0.06) 0%, rgba(171, 171, 171,0.06) 25%,rgba(128, 128, 128,0.06) 25%, rgba(128, 128, 128,0.06) 50%,rgba(84, 84, 84,0.06) 50%, rgba(84, 84, 84,0.06) 75%,rgba(41, 41, 41,0.06) 75%, rgba(41, 41, 41,0.06) 100%),linear-gradient(90deg, rgb(107, 35, 237),rgb(61, 203, 252));
+}
+
+.bg-gradient {
+  background-image: radial-gradient(circle at 10% 26%, rgba(90, 90, 90,0.06) 0%, rgba(90, 90, 90,0.06) 25%,rgba(137, 137, 137,0.06) 25%, rgba(137, 137, 137,0.06) 50%,rgba(185, 185, 185,0.06) 50%, rgba(185, 185, 185,0.06) 75%,rgba(232, 232, 232,0.06) 75%, rgba(232, 232, 232,0.06) 100%),radial-gradient(circle at 46% 66%, rgba(171, 171, 171,0.06) 0%, rgba(171, 171, 171,0.06) 25%,rgba(128, 128, 128,0.06) 25%, rgba(128, 128, 128,0.06) 50%,rgba(84, 84, 84,0.06) 50%, rgba(84, 84, 84,0.06) 75%,rgba(41, 41, 41,0.06) 75%, rgba(41, 41, 41,0.06) 100%),linear-gradient(90deg, rgb(107, 35, 237),rgb(61, 203, 252));
+
+}

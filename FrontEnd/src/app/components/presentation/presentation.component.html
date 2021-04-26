@@ -1,0 +1,166 @@
+<div class="home blog" data-template="base.twig">
+  <div class="mainWrap home">
+    <div class="tools">
+      <ul>
+        <li>
+          <a href="">
+            <span>Accueil</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/login">
+            <span>Se Connecter</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/inscription">
+            <span>S'inscrire</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.istic.rnu.tn/en/">
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="langSwitcher">
+        <li>
+          <a href="">
+            <span>FR</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span>EN</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <aside class="desktop">
+      <div routerLink="/CompteAdmin" style="cursor: pointer;" class="burgerMenuWrap">
+        <div class="burger-menu">
+          <div class="burger-click-region">
+            <span class="burger-menu-piece"></span>
+            <span class="burger-menu-piece"></span>
+            <span class="burger-menu-piece"></span>
+          </div>
+          <span class="burger-menu-txt" routerLink="/aside">Compte</span>
+        </div>
+      </div>
+
+      <div class="searchMenuWrap">
+        <svg class="search" viewBox="0 0 21 21" width="100%" height="100%">
+          <g>
+            <g>
+              <path
+                d="M8.87 2.502a5.973 5.973 0 1 1-5.972 5.973A5.98 5.98 0 0 1 8.87 2.502zm10.95 16.119l-4.763-4.955a8.078 8.078 0 1 0-6.186 2.886 7.995 7.995 0 0 0 4.63-1.458l4.803 4.993a1.054 1.054 0 1 0 1.52-1.458z"></path>
+            </g>
+          </g>
+        </svg>
+
+        <span>Recherche</span>
+      </div>
+
+      <div class="annexLinks">
+        <a href="" target="_blank"> <!--FACEBOOK-->
+          <svg class="facebook" viewBox="0 0 11 22" width="100%" height="100%">
+            <g>
+              <g>
+                <path
+                  d="M10.215 7.118H6.733V4.836c0-.856.57-1.057.97-1.057h2.452V.013L6.773 0c-3.75 0-4.602 2.809-4.602 4.608v2.51H0v3.879h2.17V21.98h4.566V10.999h3.08z"></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="" target="_blank">    <!--INSTAGRAM-->
+          <svg class="instagram" viewBox="0 0 19 19" width="100%" height="100%">
+            <g>
+              <g>
+                <path
+                  d="M15.86 4.451c0 .716-.583 1.297-1.297 1.297a1.298 1.298 0 0 1-1.296-1.297c0-.716.582-1.296 1.296-1.296.714 0 1.297.58 1.297 1.296zm1.331 9.14v-8.1c0-1.985-1.615-3.6-3.6-3.6h-8.1a3.604 3.604 0 0 0-3.6 3.6v8.1c0 1.985 1.615 3.6 3.6 3.6h8.1a3.606 3.606 0 0 0 3.602-3.6zm1.89-8.1v8.1a5.498 5.498 0 0 1-5.49 5.49h-8.1A5.498 5.498 0 0 1 0 13.592v-8.1A5.498 5.498 0 0 1 5.491 0h8.1a5.497 5.497 0 0 1 5.49 5.491zm-6.476 4.05A3.066 3.066 0 0 0 9.54 6.477a3.066 3.066 0 0 0-3.064 3.064 3.066 3.066 0 0 0 3.064 3.064 3.066 3.066 0 0 0 3.064-3.064zm1.889 0c0 2.73-2.221 4.953-4.953 4.953A4.959 4.959 0 0 1 4.586 9.54a4.96 4.96 0 0 1 4.955-4.955 4.957 4.957 0 0 1 4.953 4.955z"></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="separator"></div>
+
+      <div class="goToTop">
+        <a (click)="scrollTop()">
+          <svg id="top" viewBox="0 0 13 18" width="100%" height="100%">
+            <g>
+              <path
+                d="M12.219 6.017a.623.623 0 0 1 0 .89c-.24.24-.64.24-.88 0L6.83 2.396v14.878a.626.626 0 1 1-1.254 0V2.398l-4.5 4.508a.638.638 0 0 1-.889 0 .623.623 0 0 1 0-.889L5.763.441c.24-.24.64-.24.88 0z"></path>
+            </g>
+          </svg>
+
+          <span>
+			              haut de page
+			          </span>
+        </a>
+      </div>
+    </aside>
+
+
+      <aside class="mobile">
+        <div class="logoWrap">
+          <a href="index.html">
+            <svg class="mainLogo" viewBox="0 0 29 30">
+              <g>
+                <path fill="#fff"
+                      d="M28.287 3.05S27.757.643 25.03.643c-2.725 0-4.127.04-4.127.04v10.82s3.409-3.767 7.384-.882V3.088z"></path>
+              </g>
+              <g>
+                <path fill="#fff"
+                      d="M28.288 14.7s-5.415-3.388-7.385 2.76v12.504l4.545.036s2.271-.14 2.878-2.376c-.038.035-.038-12.923-.038-12.923z"></path>
+              </g>
+              <g>
+                <path fill="#fff"
+                      d="M16.094.607L7.84.644l.038 15.488s.198 3.516 2.675 4.294l-.002.001.026.007c.316.096.667.15 1.061.145.172.009.36.01.56.003.83.035 3.645-.166 3.935-4.487-.038-.038-.038-15.488-.038-15.488z"></path>
+              </g>
+              <g>
+                <path fill="#fff"
+                      d="M16.074 26.806l.01-3.106-.048.05c-.269.086-3.472 1.071-6.664.416.008-.007.015-.012.019-.012a8.085 8.085 0 0 1-.404-.076 7.965 7.965 0 0 1-2.5-1.079c-2.667-1.89-3.3-5.411-3.45-7.074-.004-3.783-.083-15.28-.083-15.28S.758.829.038 3.236C.076 3.199 0 27.15 0 27.15S.379 29.815 3.03 30l13.063.037z"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="langSwitcher">
+          <ul class="langSwitcher">
+            <li>
+              <a href="index.html">
+                <span>FR</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span>EN</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="searchMenuWrap">
+          <svg class="search" viewBox="0 0 21 21" width="100%" height="100%">
+            <g>
+              <g>
+                <path
+                  d="M8.87 2.502a5.973 5.973 0 1 1-5.972 5.973A5.98 5.98 0 0 1 8.87 2.502zm10.95 16.119l-4.763-4.955a8.078 8.078 0 1 0-6.186 2.886 7.995 7.995 0 0 0 4.63-1.458l4.803 4.993a1.054 1.054 0 1 0 1.52-1.458z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="burgerMenuWrap">
+          <div class="burger-menu">
+            <div class="burger-click-region">
+              <span class="burger-menu-piece"></span>
+              <span class="burger-menu-piece"></span>
+              <span class="burger-menu-piece"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+  </div>
+</div>
